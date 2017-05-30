@@ -1,3 +1,43 @@
 html {
   font-family: "sofia-pro",sans-serif;
 }
+
+/* LINKS */
+a {
+  color: #252C41;
+}
+
+a:hover {
+  color: #00F0B1;
+}
+
+a {
+  margin-right: 5px;
+}
+
+/* Sections */
+
+/* Hero */
+.section.hero {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+.section {
+  margin-top: 10%;
+}
+/* Last section */
+
+.section:last-child{
+  margin-bottom: 5%;
+}
+
+.hero-heading {
+  text-align: center;
+  /*font-size: 5em;*/
+}
+
+/* Creation */
+.creation {
+  /*background-color: black;*/
+}
