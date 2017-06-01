@@ -1,10 +1,14 @@
 html {
   font-family: "sofia-pro",sans-serif;
 }
-
+body {
+  background-image: url(../images/background.png);
+  background-size: contain;
+  color: white;
+}
 /* LINKS */
 a {
-  color: #252C41;
+  color: #00F0B1;
 }
 
 a:hover {
@@ -33,7 +37,7 @@ a {
 }
 
 .hero-heading {
-  text-align: center;
+  /*text-align: center;*/
   /*font-size: 5em;*/
 }
 
