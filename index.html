@@ -49,6 +49,8 @@
 </head>
 <body>
 
+  <div id="particles-js"></div>
+
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
@@ -56,7 +58,7 @@
     <div class="container">
       <div class="row">
         <div class="twelve columns">
-          <h1 class="hero-heading">Welcome to Jonny Land -<br>A land of my creations.</h1>
+          <h1 class="hero-heading">Welcome to Jonny Land -<br>A land for my creations.</h1>
         </div>
       </div>
     </div>
@@ -70,32 +72,38 @@
         </div>
       </div>
       <div class="row">
-        <div class="four columns creation">
+        <div class="six columns creation">
           <h2>Up-time</h2>
           <p>A platform to boost the wellbeing of patients going through dialysis treatment.</p>
           <p>UX, design, coding</p>
-          <!--<a href="#">Link</a><i class="fa fa-external-link-square" aria-hidden="true"></i>-->
+          <a href="http://jonnygwillim.co.uk">Up-time</a><i class="fa fa-external-link-square" aria-hidden="true"></i>
         </div>
-        <div class="four columns creation">
+      </div>
+      <div class="row mt-10">
+        <div class="six columns creation">
           <h2>Tung</h2>
           <p>Tung is a facebook chatbot that auto-translates messages to your friends.</p>
           <p>Coding</p>
           <a href="https://jonnygwi.github.io/tung/">Tung</a><i class="fa fa-external-link-square" aria-hidden="true"></i>
         </div>
-        <div class="four columns creation">
+      </div>
+      <div class="row mt-10">
+        <div class="six columns creation">
           <h2>Serendipitweet</h2>
           <p>Twitter bot that sends tweet mashups based on it's follows. It requires a strange kind of humour.</p>
           <p>Design, coding</p>
           <a href="https://twitter.com/BotSerendipity">Serendipitweet</a><i class="fa fa-external-link-square" aria-hidden="true"></i>
         </div>
       </div>
-      <div class="row">
-        <div class="four columns creation">
+      <div class="row mt-10">
+        <div class="six columns creation">
           <h2>My Blog</h2>
           <p>My personal blog documenting the progress of Up-time</p>
           <p>Design, coding</p>
           <a href="https://blog.jonny.land">My Blog</a><i class="fa fa-external-link-square" aria-hidden="true"></i>
         </div>
+      </div>
+      <div class="row mt-10">
         <div class="six columns creation">
           <h2>Can you captain?</h2>
           <p>A nautical resource managment game for the National Maritime Museum. Bitsize chunks of history humoured by animations.</p>
@@ -113,7 +121,7 @@
         </div>
       </div>
       <div class="row">
-          <div class="four columns">
+          <div class="six columns">
             <h2>Hacksy</h2>
             <p>Description about project</p>
             <a href="hacksy.decoded.com">Hacksy</a><i class="fa fa-external-link-square" aria-hidden="true"></i>
@@ -130,12 +138,14 @@
         </div>
       </div>
       <div class="row">
-        <div class="four columns">
+        <div class="six columns">
           <h2>Apps from Scratch</h2>
           <p>An open source six week saturday course. Teaching the fundementals of how to build a web application.</p>
           <a href="https://github.com/03difoha/AppsFromScratch">Course content</a><i class="fa fa-external-link-square" aria-hidden="true"></i>
         </div>
-        <div class="four columns">
+      </div>
+      <div class="row mt-10">
+        <div class="six columns">
           <h2>MuseumXDesign</h2>
           <p>Teaching key stage 3 students at The British Museum CSS fundementals</p>
         </div>
@@ -147,12 +157,12 @@
     <div class="container">
       <div class="row">
         <div class="twelve columns">
-          <h1 class="section-header">Converse</h1>
+          <h1 class="section-header">Chat</h1>
         </div>
       </div>
       <div class="row">
         <div class="twelve columns">
-          <p>If you want to colaborate, go for a Tea, swig a beer or share a bowl of Kimchi. Get in touch!</p>
+          <p>If you want to colaborate or share a bowl of Kimchi. Get in touch!</p>
         </div>
       </div>
       <div class="row">
@@ -168,5 +178,11 @@
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script type="text/javascript">
+  particlesJS.load('particles-js', 'js/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+  </script>
 </body>
 </html>

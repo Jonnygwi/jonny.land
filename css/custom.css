@@ -2,12 +2,11 @@ html {
   font-family: "sofia-pro",sans-serif;
 }
 body {
-  background-image: url(../images/background.png);
-  background-size: contain;
-  color: white;
+  background-color: #252C41;
+  color: #F4F5F9;
 }
 /* LINKS */
-a {
+a,i {
   color: #00F0B1;
 }
 
@@ -45,3 +44,19 @@ a {
 .creation {
   /*background-color: black;*/
 }
+
+/*div.section div.container div.row:not(:nth-child(2)) {
+  margin-top: 10em;
+}*/
+
+.mt-10 {
+  margin-top: 10em;
+}
+
+#particles-js {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  }
