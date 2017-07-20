@@ -1,0 +1,11 @@
+.example-images img {
+  width: inherit;
+}
+
+.image-section .row{
+  margin-top: 1em;
+}
+
+.image-section img{
+  width: inherit;
+}

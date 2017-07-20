@@ -1,0 +1,22 @@
+.container.words .row:last-child {
+  margin-bottom: 1em;
+}
+
+.col-4 img {
+  width: inherit;
+}
+
+.colour-palette-image {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.selected-answer img{
+  border: 4px solid #00F0B1;
+}
+
+.jscolor {
+    width: inherit;
+    height: 5em;
+    border: none !important;
+}

@@ -1,0 +1,28 @@
+CACHE MANIFEST
+
+#version 1.0 6-12-2017
+
+CACHE:
+
+#images
+http://localhost:8080/courses/assets/images/palette.png
+http://localhost:8080/courses/assets/images/poem.png
+http://localhost:8080/courses/assets/images/pottery.png
+
+#internal HTML documents
+http://localhost:8080/courses/colour-palette/index.html
+http://localhost:8080/courses/poem/index.html
+
+#style sheets
+http://localhost:8080/css/bootstrap.css
+http://localhost:8080/css/styles.css
+https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css
+
+#javascript files
+https://use.typekit.net/htk3nkn.js
+https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js
+https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js
+https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js
+
+NETWORK:
+*
