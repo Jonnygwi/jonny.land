@@ -1,48 +1,49 @@
 html {
-  font-family: "sofia-pro",sans-serif;
+    font-family: "sofia-pro", sans-serif;
 }
 body {
-  background-color: #252C41;
-  color: #F4F5F9;
+    background-color: #252c41;
+    color: #f4f5f9;
 }
 /* LINKS */
-a,i {
-  color: #00F0B1;
+a,
+i {
+    color: #00f0b1;
 }
 
 a:hover {
-  color: #00F0B1;
+    color: #00f0b1;
 }
 
 a {
-  margin-right: 5px;
+    margin-right: 5px;
 }
 
 /* Sections */
 
 /* Hero */
 .section.hero {
-  margin-top: 15%;
-  margin-bottom: 15%;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
 
 .section {
-  margin-top: 10%;
+    margin-top: 10%;
 }
 /* Last section */
 
 .contact {
-  margin-bottom: 5%;
+    margin-bottom: 5%;
 }
 
 .hero-heading {
-  /*text-align: center;*/
-  /*font-size: 5em;*/
+    /*text-align: center;*/
+    /*font-size: 5em;*/
 }
 
 /* Creation */
 .creation {
-  /*background-color: black;*/
+    /*background-color: black;*/
 }
 
 /*div.section div.container div.row:not(:nth-child(2)) {
@@ -50,13 +51,23 @@ a {
 }*/
 
 .mt-10 {
-  margin-top: 10em;
+    margin-top: 10em;
 }
 
 #particles-js {
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  }
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+li {
+    list-style: initial;
+    margin-bottom: 0;
+}
+
+.stack {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
